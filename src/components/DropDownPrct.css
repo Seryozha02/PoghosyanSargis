@@ -1,0 +1,31 @@
+.allPracticalMaterials {
+    width: 170px;
+    top: 70px;
+    position: absolute;
+    list-style: none;
+    text-align: start;
+}
+
+.allPracticalMaterials li {
+    background: rgb(0, 212, 212);
+    cursor: pointer;
+}
+
+.allPracticalMaterials li a:hover {
+    background: rgb(0, 175, 175);
+}
+
+.allTheoreticalMaterialsClicked  {
+    display: none;
+}
+
+
+.subMenuItem {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 8px;
+}
