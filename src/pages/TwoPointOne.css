@@ -1,3 +1,9 @@
+.phtcBg {
+    background-image: url("../images/phtcImg.jpg");
+    background-position: center;
+    background-repeat: repeat;
+}
+
 .secondPage {
     display: flex;
     flex-direction: column;
@@ -9,7 +15,6 @@
 
 .textsForSecondPage {
     width: 1000px;
-    border: 1px black solid;
     border-radius: 15px;
     margin-bottom: 15px;
 }

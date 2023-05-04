@@ -12,16 +12,6 @@ function About() {
       </h2>
       <div className="bothCards">
         <form className="aboutPage">
-          <p>ՈՒՍԱՆՈՂ</p>
-          <div className="student">
-            <img className="imageOfSTD" src={studentImage} alt="" />
-            <p>
-              <b>Պողոսյան Սարգիս</b>
-            </p>
-          </div>
-        </form>
-
-        <form className="aboutPage">
           <p>ԳԻՏԱԿԱՆ ՂԵԿԱՎԱՐ</p>
           <div className="lecturer">
             <img className="imageOfLCT" src={docentImage} alt="" />
@@ -32,13 +22,23 @@ function About() {
             </p>
           </div>
         </form>
+
+        <form className="aboutPage">
+          <p>ՈՒՍԱՆՈՂ</p>
+          <div className="student">
+            <img className="imageOfSTD" src={studentImage} alt="" />
+            <p>
+              <b>Պողոսյան Սարգիս</b>
+            </p>
+          </div>
+        </form>
       </div>
       <footer className="footerForContact">
         <p><b>Հասցե</b>` Տիգրան Մեծի 17</p>
         <p><b>Հեռախոս</b>` (+374 10) 59 70 49</p>
         <p><b>Ֆաքս</b>` (+374 10) 59 70 08</p>
         <p><b>Էլ. փոստ</b>` aspu.am@aspu.am</p>
-        <p><b>Կայք</b>` <Link to="https://aspu.am/" target="_blank">https://aspu.am/</Link></p>
+        <p className="hpmh"><b><Link to="https://aspu.am/" target="_blank">Հայկական Պետական Մանկավարժական Համալսարան</Link></b></p>
       </footer>
       </div>
     </>

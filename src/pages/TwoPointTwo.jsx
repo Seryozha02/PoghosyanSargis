@@ -8,16 +8,11 @@ import image24 from "../images/image24.png";
 
 function TwoPointTwo() {
   return (
-    <div>
-      <p style={{ fontWeight: "bold", textAlign: "center" }}>ԳԼՈՒԽ 2</p>
-      <h3 style={{ textAlign: "center" }}>
-        Միջին դպրոցում եռանկյունների նմանություն թեմայի կիրառումն ու ուսուցումը
-      </h3>
-      <br />
+    <div className="phtcBg">
       <div className="secondPage">
         <text className="textsForSecondPage">
           <h4>
-            2.2 Առաջադրված նմանատիպ խնդիրներ, հարցեր, տեսական և գործնական
+            Առաջադրված նմանատիպ խնդիրներ, հարցեր, տեսական և գործնական
             գիտելիքների ամրապնդման համար
           </h4>
           <br />

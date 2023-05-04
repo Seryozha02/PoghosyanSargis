@@ -9,18 +9,8 @@ import image7 from "../images/image7.png";
 
 function OnePointOne() {
     return(
-        <div>
-      <p style={{ fontWeight: "bold", textAlign: "center" }}>ԳԼՈՒԽ 1</p>
-      <h3 style={{ textAlign: "center" }}>
-        Միջին դպրոցում եռանկյունների նմանություն թեման, դրա հիմնական
-        հասկացությունները
-      </h3>
-      <br />
+        <div className="background">
       <div className="firstPage">
-        <h4>
-          1․1 Միջին դպրոցում եռանկյունների նմանություն թեմային վերաբերվող
-          սահմանումներ, թեորեմներ, ընդհանուր տեղեկություններ, պարզաբանումներ:
-        </h4>
         <text className="textsForFirstPage">
           <p>
             <b>ԵՌԱՆԿՅՈՒՆՆԵՐԻ ՆՄԱՆՈՒԹՅՈՒՆ</b>
